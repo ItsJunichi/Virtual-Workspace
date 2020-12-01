@@ -514,7 +514,7 @@ MonoBehaviour:
   OnServerDisconnected:
     m_PersistentCalls:
       m_Calls: []
-  port: 7777
+  port: 25566
   NoDelay: 1
   serverMaxMessageSize: 16384
   serverMaxReceivesPerTick: 10000
@@ -538,9 +538,9 @@ MonoBehaviour:
   showDebugMessages: 0
   serverTickRate: 30
   offlineScene: 
-  onlineScene: 
+  onlineScene: Assets/Scenes/Game.unity
   transport: {fileID: 1852183582}
-  networkAddress: localhost
+  networkAddress: 77.223.43.224
   maxConnections: 4
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
