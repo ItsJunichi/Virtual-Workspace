@@ -99,41 +99,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13046}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13070}
     - Class: 114
-      Script: {instanceID: 13722}
+      Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 14302}
+      Script: {instanceID: 13724}
     - Class: 114
-      Script: {instanceID: 14326}
+      Script: {instanceID: 14304}
     - Class: 114
-      Script: {instanceID: 14708}
+      Script: {instanceID: 14328}
     - Class: 114
-      Script: {instanceID: 14828}
+      Script: {instanceID: 14710}
     - Class: 114
-      Script: {instanceID: 14924}
+      Script: {instanceID: 14830}
     - Class: 114
-      Script: {instanceID: 14954}
+      Script: {instanceID: 14926}
     - Class: 114
-      Script: {instanceID: 14958}
+      Script: {instanceID: 14956}
     - Class: 114
-      Script: {instanceID: 15108}
+      Script: {instanceID: 14960}
     - Class: 114
-      Script: {instanceID: 15190}
+      Script: {instanceID: 15110}
     - Class: 114
-      Script: {instanceID: 15240}
+      Script: {instanceID: 15192}
     - Class: 114
-      Script: {instanceID: 15392}
+      Script: {instanceID: 15242}
     - Class: 114
-      Script: {instanceID: 15564}
+      Script: {instanceID: 15394}
     - Class: 114
-      Script: {instanceID: 15608}
+      Script: {instanceID: 15566}
     - Class: 114
-      Script: {instanceID: 15632}
+      Script: {instanceID: 15610}
     - Class: 114
-      Script: {instanceID: 18700}
+      Script: {instanceID: 15634}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -555,6 +555,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Login
+  - hash:
+      serializedVersion: 2
+      Hash: f963d83a4654df0d5c9be7c233108abc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DapperDino.Mirror.Tutorials.Chat
+    className: ChatBehaviour
   - hash:
       serializedVersion: 2
       Hash: dd7520b7d4e690e8c593273e7b9fbe80
@@ -1359,12 +1365,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f963d83a4654df0d5c9be7c233108abc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DapperDino.Mirror.Tutorials.Chat
-    className: ChatBehaviour
   platform: 5
   scenePathNames:
   - Assets/Scenes/Game.unity
