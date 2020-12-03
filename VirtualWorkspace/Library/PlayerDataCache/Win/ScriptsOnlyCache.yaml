@@ -1,6 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DapperDino.Mirror.Tutorials.Chat.ChatBehaviour
+    - DragUI
+    - GameSave
     - Mirror.Examples.Pong.NetworkManagerWorkspace
     - PlayerControl
     - PlayerName
@@ -23,6 +26,7 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -34,8 +38,18 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -59,39 +73,67 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11862}
+      Script: {instanceID: 11752}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 11886}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 13150}
+      Script: {instanceID: 12152}
     - Class: 114
-      Script: {instanceID: 14376}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 12266}
     - Class: 114
-      Script: {instanceID: 14778}
+      Script: {instanceID: 12444}
     - Class: 114
-      Script: {instanceID: 14898}
+      Script: {instanceID: 12612}
     - Class: 114
-      Script: {instanceID: 14994}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 15026}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 15176}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 15258}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 15308}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 15458}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 15672}
+      Script: {instanceID: 14302}
+    - Class: 114
+      Script: {instanceID: 14326}
+    - Class: 114
+      Script: {instanceID: 14708}
+    - Class: 114
+      Script: {instanceID: 14828}
+    - Class: 114
+      Script: {instanceID: 14924}
+    - Class: 114
+      Script: {instanceID: 14954}
+    - Class: 114
+      Script: {instanceID: 14958}
+    - Class: 114
+      Script: {instanceID: 15108}
+    - Class: 114
+      Script: {instanceID: 15190}
+    - Class: 114
+      Script: {instanceID: 15240}
+    - Class: 114
+      Script: {instanceID: 15392}
+    - Class: 114
+      Script: {instanceID: 15564}
+    - Class: 114
+      Script: {instanceID: 15608}
+    - Class: 114
+      Script: {instanceID: 15632}
+    - Class: 114
+      Script: {instanceID: 18700}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -647,6 +689,12 @@ ScriptsOnlyBuild:
     className: NetworkManagerListServerPong
   - hash:
       serializedVersion: 2
+      Hash: 90a6b2e5dc8251ddff206c1e0da57386
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragUI
+  - hash:
+      serializedVersion: 2
       Hash: e87f50864f8a979f1228e8c69bd62658
     assemblyName: Mirror.Examples.Cloud.Pong.dll
     namespaceName: Mirror.Cloud.Examples.Pong
@@ -1025,6 +1073,12 @@ ScriptsOnlyBuild:
     className: NetworkLogSettings
   - hash:
       serializedVersion: 2
+      Hash: b7512264d05400c061c5f81d8ffddd41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameSave
+  - hash:
+      serializedVersion: 2
       Hash: e87f50864f8a979f1228e8c69bd62658
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1305,6 +1359,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f963d83a4654df0d5c9be7c233108abc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DapperDino.Mirror.Tutorials.Chat
+    className: ChatBehaviour
   platform: 5
   scenePathNames:
   - Assets/Scenes/Game.unity
